@@ -166,7 +166,7 @@ public class GuessTheCity {
     /**
      * replace letters (array1 and array2 must be the same length)
      * if array1 has targetletters, the letters at the same index in array2 will be
-     * replaced into newletters, then return array2
+     * replaced into the letters at the same index in array1, then return array2
      */
     private static char[] replaceChars(char[] array1, char[] array2, char targetLetter) {
         for (int i = 0; i < array1.length; i++) {
