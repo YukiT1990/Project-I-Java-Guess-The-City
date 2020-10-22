@@ -14,6 +14,10 @@ public class GuessTheCity {
         /**
          * import the contents of the file "cities.txt"
          */
+        // relative path does not work
+//        File file = new File("cities.txt");
+        // This did work when I wrote this code at the first time, but it does not work now
+//        File file = new File("src/miniproject1/cities.txt");
         File file = new File("/Users/yuki.t/IdeaProjects/IntroToOOP/src/miniproject1/cities.txt");
         String[] cityNames = null;
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
