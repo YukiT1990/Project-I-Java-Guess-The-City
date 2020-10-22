@@ -14,7 +14,7 @@ public class GuessTheCity {
         /**
          * import the contents of the file "cities.txt"
          */
-        File file = new File("src/miniproject1/cities.txt");
+        File file = new File("/Users/yuki.t/IdeaProjects/IntroToOOP/src/miniproject1/cities.txt");
         String[] cityNames = null;
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
             List<String> lineList = new ArrayList<String>();
