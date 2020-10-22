@@ -1,5 +1,8 @@
 package miniproject1;
-
+/**
+ * Mini Project 1 java at CICCC
+ * @author Yuki Tsukada
+ */
 
 import java.io.*;
 import java.util.ArrayList;
